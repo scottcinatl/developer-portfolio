@@ -7,11 +7,18 @@ import About from './components/About'
 import Form from './components/Form'
 import Footer from './components/Footer'
 
+var apiUrl
+if (process.env.NODE_ENV === 'production') {
+  apiUrl = '/contacts'
+} else {
+  apiUrl = 'http://localhost:3000'
+}
+
 class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      apiUrl: 'http://localhost:3000',
+      apiUrl: apiUrl,
       newMessageSuccess: false,
     }
   }
