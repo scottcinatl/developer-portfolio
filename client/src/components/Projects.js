@@ -34,7 +34,7 @@ class Projects extends Component {
               className="large"
               header={<CardTitle image="./studio-demo.gif" />}
               actions={[
-                <a href="https://studio5sixsix.herokuapp.com/" style={{ color: '#ec6268' }}>
+                <a href="http://www.scottcinatl.com/" style={{ color: '#ec6268' }}>
                   VIEW PROJECT
                 </a>,
               ]}
