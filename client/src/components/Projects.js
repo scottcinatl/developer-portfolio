@@ -16,13 +16,13 @@ class Projects extends Component {
               header={<CardTitle image="./portfolio-demo.gif" />}
               actions={[
                 <a href="https://www.scottcinatl.com" style={{ color: '#ec6268' }}>
-                  www.scottcinatl.com
+                  VIEW PROJECT
                 </a>,
               ]}
             >
               <a href="https://github.com/scottcinatl">
                 <h5 className="project-subtitle">
-                  Development Portfolio<img src="./github-icon.png" className="github-icon" />
+                  Development Portfolio<img src="./github-icon.svg" className="github-icon" />
                 </h5>
               </a>
               A portfolio website I developed using reactjs, react-materialize, and my own graphic design work for the
@@ -35,13 +35,13 @@ class Projects extends Component {
               header={<CardTitle image="./studio-demo.gif" />}
               actions={[
                 <a href="https://studio5sixsix.herokuapp.com/" style={{ color: '#ec6268' }}>
-                  studio5sixsix.herokuapp.com
+                  VIEW PROJECT
                 </a>,
               ]}
             >
               <a href="https://github.com/scottcinatl/studio5sixsix-photography-portfolio">
                 <h5 className="project-subtitle">
-                  Studio566 Photography<img src="./github-icon.png" className="github-icon" />
+                  Studio566 Photography<img src="./github-icon.svg" className="github-icon" />
                 </h5>
               </a>
               A photography portfolio website I developed for a local photographer using reactjs and CSS styling work
