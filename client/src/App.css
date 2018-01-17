@@ -92,7 +92,7 @@ nav {
   margin: 0 auto;
   width: 80%;
   padding-bottom: 25px;
-  text-align: left;
+  text-align: center;
   font-size: 1.25em;
   border-bottom: 2px solid #48a9a6;
 }
@@ -118,6 +118,15 @@ nav {
   border: 5px solid #48a9a6;
   border-radius: 50%;
   margin: 25px 10px;
+}
+
+.portfolio-links {
+  margin-top: 100px;
+}
+
+.link {
+  width: 200px;
+  margin: 0px 20px;
 }
 
 /*---------------------
@@ -255,6 +264,10 @@ nav {
     top: 37%;
   }
 
+  .about-description {
+    text-align: justify;
+  }
+
   nav {
     padding-left: 0;
     padding-right: 0;
@@ -309,6 +322,14 @@ nav {
 
   .project-right {
     margin-left: 0px;
+  }
+
+  .portfolio-links {
+    margin-top: 20px;
+  }
+
+  .link {
+    margin: 5px;
   }
 }
 

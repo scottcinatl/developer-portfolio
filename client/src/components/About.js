@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import { Button } from 'react-materialize'
+
 class About extends Component {
   render() {
     return (
@@ -30,6 +32,18 @@ class About extends Component {
             <img src="./nodejs.png" className="about-icons" />
             <img src="./sql-icon.png" className="about-icons" />
           </div>
+        </div>
+        <div className="portfolio-links">
+          <a href="https://www.linkedin.com/in/scottcinatl/">
+            <Button waves="light" className="link">
+              VIEW LINKEDIN
+            </Button>
+          </a>
+          <a href="https://github.com/scottcinatl">
+            <Button waves="light" className="link">
+              VIEW GITHUB
+            </Button>
+          </a>
         </div>
       </div>
     )
