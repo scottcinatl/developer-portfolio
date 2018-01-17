@@ -15,7 +15,7 @@ class Projects extends Component {
               className="large"
               header={<CardTitle image="./portfolio-demo.gif" />}
               actions={[
-                <a href="https://www.scottcinatl.com" style={{ color: '#ec6268' }}>
+                <a href="http://www.scottcinatl.com" style={{ color: '#ec6268' }}>
                   VIEW PROJECT
                 </a>,
               ]}
