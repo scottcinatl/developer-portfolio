@@ -1,0 +1,21 @@
+/*---------------------
+    NAVIGATION BAR
+----------------------*/
+
+nav {
+  padding-left: 30px;
+  font-family: 'Raleway', sans-serif;
+  padding-right: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*---------------------
+     MEDIA QUERIES
+----------------------*/
+
+@media screen and (max-width: 800px) {
+  nav {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

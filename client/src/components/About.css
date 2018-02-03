@@ -1,0 +1,99 @@
+.new-about-container {
+  margin: 50px 0px;
+}
+
+.new-about-section {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  font-family: 'Raleway', sans-serif;
+  color: #48a9a6;
+}
+
+.a-description {
+  font-size: 1.25em;
+}
+
+.profile-picture {
+  width: 170px;
+  height: 173px;
+  border-radius: 50%;
+  border: 5px solid #48a9a6;
+}
+
+.about-title {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.a-skills {
+  font-size: 1.25em;
+  margin-top: 10px;
+}
+
+.a-skills span {
+  font-size: 1.26em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.profile-position {
+  padding-top: 20px;
+}
+
+.a-links {
+  margin-top: 50px;
+}
+
+.alink {
+  width: 200px;
+  margin: 20px 20px;
+}
+
+.a-left {
+  flex: 1;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.a-right {
+  flex: 3;
+}
+
+@media only screen and (max-width: 900px) {
+  .new-about-section {
+    flex-direction: column;
+  }
+
+  .a-left {
+    flex: 1;
+    margin-right: 0px;
+  }
+
+  .a-right {
+    flex: 1;
+  }
+
+  .profile-position {
+    padding-top: 0px;
+  }
+
+  .alink {
+    margin: 10px 10px;
+  }
+
+  .a-links {
+    margin: 15px 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-picture {
+    width: 170px;
+    height: 173px;
+    border-radius: 50%;
+    border: 5px solid #48a9a6;
+  }
+}

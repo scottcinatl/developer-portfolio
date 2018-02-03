@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import './Jumbotron.css'
+
 class Jumbotron extends Component {
   render() {
     var TxtType = function(el, toRotate, period) {
@@ -73,7 +75,7 @@ class Jumbotron extends Component {
             <span className="wrap" />
           </a>
         </h2>
-        <img className="banner-image" src="./laptopBanner.png" />
+        <img className="banner-image" alt="laptop-banner" src="./laptopBanner.png" />
       </div>
     )
   }

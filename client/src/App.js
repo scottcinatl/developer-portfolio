@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import './App.css'
-import Header from './components/Header'
+import NavigationBar from './components/NavigationBar'
 import Jumbotron from './components/Jumbotron'
 import Projects from './components/Projects'
 import About from './components/About'
+import Testimonials from './components/Testimonials'
 import Form from './components/Form'
 import Footer from './components/Footer'
 
@@ -50,27 +51,18 @@ class App extends Component {
   render() {
     return (
       <div className="site-content">
-        <div>
-          <Header />
-        </div>
-        <div>
-          <Jumbotron />
-        </div>
+        <NavigationBar />
 
-        <div>
-          <About />
-        </div>
+        <Jumbotron />
 
-        <div>
-          <Projects />
-        </div>
+        <About />
 
-        <div>
-          <Form onSubmit={this.handleNewMessage.bind(this)} />
-        </div>
-        <div>
-          <Footer />
-        </div>
+        <Testimonials />
+
+        <Projects />
+
+        <Form onSubmit={this.handleNewMessage.bind(this)} />
+        <Footer />
       </div>
     )
   }

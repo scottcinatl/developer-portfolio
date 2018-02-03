@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Row, Input, Button } from 'react-materialize'
 
+import './Form.css'
+
 class Form extends Component {
   constructor(props) {
     super(props)
@@ -28,7 +30,7 @@ class Form extends Component {
     return (
       <div className="form-section" id="contact">
         <p>
-          <img src="./scott-dev-icon.png" className="form-logo" />
+          <img src="./scott-dev-icon.png" alt="scott-cinatl-dev-logo" className="form-logo" />
         </p>
         <h3 className="form-title">CONTACT ME</h3>
         <div className="form">
