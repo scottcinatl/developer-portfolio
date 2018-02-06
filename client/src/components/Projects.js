@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Button } from 'react-materialize'
 
 import PortfolioDemo from './images/p-demo.gif'
-import StudioDemo from './images/studioDemo.gif'
+import StudioDemo from './images/studio566-demo.gif'
 import MarvelDemo from './images/marvel-demo.gif'
 
 import './Projects.css'
@@ -11,7 +11,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <div className="p-wrapper-one">
+        <div className="p-wrapper-one" id="projects">
           <div className="p-container">
             <h3 className="p-title">Projects</h3>
             <div className="new-projects">
