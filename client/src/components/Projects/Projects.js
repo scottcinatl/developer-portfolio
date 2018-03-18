@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { Button } from 'react-materialize'
 
-import PortfolioDemo from './images/p-demo.gif'
-import StudioDemo from './images/studio566-demo.gif'
-import MarvelDemo from './images/marvel-demo.gif'
+import PortfolioDemo from '../../images/p-demo.gif'
+import StudioDemo from '../../images/studio566-demo.gif'
+import MarvelDemo from '../../images/marvel-demo.gif'
 
 import './Projects.css'
 

@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import './App.css'
-import NavigationBar from './components/NavigationBar'
-import Jumbotron from './components/Jumbotron'
-import Projects from './components/Projects'
-import About from './components/About'
-import Testimonials from './components/Testimonials'
-import Form from './components/Form'
-import Footer from './components/Footer'
+import NavigationBar from './components/NavigationBar/NavigationBar'
+import Jumbotron from './components/Jumbotron/Jumbotron'
+import Projects from './components/Projects/Projects'
+import About from './components/About/About'
+import Testimonials from './components/Testimonials/Testimonials'
+import Form from './components/Form/Form'
+import Footer from './components/Footer/Footer'
 
 var apiUrl
 if (process.env.NODE_ENV === 'production') {
