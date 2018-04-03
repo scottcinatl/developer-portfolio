@@ -39,7 +39,7 @@ class About extends Component {
                 <span>Languages:</span> <br />JavaScript, HTML5, CSS3, SQL
               </p>
               <p>
-                <span>Frameworks & Libraries:</span> <br />React.js, React Router, Redux, Node.js, Express, Sequelize,
+                <span>Frameworks & Libraries:</span> <br />React.js, Redux, RxJs, React Router, Node.js, Express, Sequelize,
                 Bootstrap
               </p>
             </div>
