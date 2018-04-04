@@ -39,7 +39,7 @@ class Projects extends Component {
           <div className="p-container">
             <div className="new-projects">
               <img src={StudioDemo} alt="studio5sixsix-demo" className="p-image" />
-              <h4 className="p-subtitle">Studio5sixisx Photography Website</h4>
+              <h4 className="p-subtitle">Studio5sixsix Photography Website</h4>
               <p className="p-caption">React | Frontend | Backend </p>
               <p className="p-caption">
                 A photography portfolio website I developed for a local photographer using React for the frontend and
