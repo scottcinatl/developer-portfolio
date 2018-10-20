@@ -1,7 +1,53 @@
+import Button from '@material-ui/core/Button'
+import { withStyles } from '@material-ui/core/styles'
 import React, { Component } from 'react'
-import { Row, Input, Button } from 'react-materialize'
+import { Input, Row } from 'react-materialize'
 
-import './Form.css'
+/**
+ * The Styles for the `Form` component.
+ */
+const styles = theme => ({
+  aLink: {
+    width: '200px',
+    margin: '20px 20px',
+    backgroundColor: '#26a69a',
+    '&:hover': {
+      backgroundColor: '#26a69a',
+    },
+  },
+  formSection: {
+    margin: '100px 0',
+  },
+  form: {
+    margin: '50px 200px',
+  },
+  formTitle: {
+    textAlign: 'center',
+    fontFamily: 'Raleway, sans-serif',
+    color: '#48a9a6',
+  },
+  formButton: {
+    textAlign: 'center',
+  },
+  formSectionP: {
+    textAlign: 'center',
+  },
+  formLogo: {
+    height: '250px',
+    width: '250px',
+    marginBottom: '50px',
+  },
+  '@media screen and (max-width: 1000px)': {
+    form: {
+      margin: '50px 100px',
+    },
+  },
+  '@media (max-width: 650px)': {
+    form: {
+      margin: '50px 10px',
+    },
+  },
+})
 
 class Form extends Component {
   constructor(props) {
@@ -27,13 +73,14 @@ class Form extends Component {
   }
 
   render() {
+    const { classes } = this.props
     return (
-      <div className="form-section" id="contact">
-        <p>
-          <img src="./scott-dev-icon.png" alt="scott-cinatl-dev-logo" className="form-logo" />
+      <div className={classes.formSection} id="contact">
+        <p className={classes.formSectionP}>
+          <img src="./scott-dev-icon.png" alt="scott-cinatl-dev-logo" className={classes.formLogo} />
         </p>
-        <h3 className="form-title">CONTACT ME</h3>
-        <div className="form">
+        <h3 className={classes.formTitle}>CONTACT ME</h3>
+        <div className={classes.form}>
           <form>
             <Row>
               <Input
@@ -60,8 +107,14 @@ class Form extends Component {
                 value={this.state.form.message}
                 onChange={this.handleChange.bind(this)}
               />
-              <div className="form-button">
-                <Button waves="light" onClick={this.handleSubmit.bind(this)} id="submit">
+              <div className={classes.formButton}>
+                <Button
+                  className={classes.aLink}
+                  variant="contained"
+                  color="primary"
+                  onClick={this.handleSubmit.bind(this)}
+                  id="submit"
+                >
                   Submit
                 </Button>
               </div>
@@ -73,4 +126,7 @@ class Form extends Component {
   }
 }
 
-export default Form
+/**
+ * Renders the `Form` component.
+ */
+export default withStyles(styles)(Form)
