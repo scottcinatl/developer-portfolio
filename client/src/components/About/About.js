@@ -101,7 +101,7 @@ const About = ({ classes }) => (
     <div className={classes.newAboutSection}>
       <div className={classes.aLeft}>
         <div className={classes.profilePosition}>
-          <img src="./scott-cinatl-profile-picture.png" alt="scott-cinatl-profile" className={classes.profilePicture} />
+          <img src="./scott-cinatl-profile-picture.jpg" alt="scott-cinatl-profile" className={classes.profilePicture} />
         </div>
         <div className={classes.aLinks}>
           <a href="https://www.linkedin.com/in/scottcinatl/">
@@ -119,20 +119,19 @@ const About = ({ classes }) => (
       <div className={classes.aRight}>
         <h3 className={classes.aboutTitle}>ABOUT ME</h3>
         <div className={classes.aDescription}>
-          Before pursuing web development, I worked at an educational non-profit. While the mission was what drew me to
-          work there, I also enjoyed the freedom to improve and create programs to better serve the students in the
-          program. With this in mind, I turned my attention to web development and began to teach myself to code after
-          work. My curiosity of programming soon turned into a passion to learn as much as I could, solve problems, and
-          build web applications.
+          I am a web developer with experience working on an agile development team building responsive single page web
+          applications that implement UI/UX designs that are intuitive for users on both mobile and desktop
+          applications. I am driven to continually improve my skill set and utilize my creativity to solve problems that
+          are set before me.
         </div>
         <div className={classes.aSkills}>
           <p>
             <span>Languages:</span> <br />
-            JavaScript, HTML5, CSS3, SQL
+            JavaScript + TypeScript, HTML5, CSS3, SQL
           </p>
           <p>
             <span>Frameworks & Libraries:</span> <br />
-            React.js, Redux, RxJs, React Router, Node.js, Express, Sequelize, Bootstrap
+            React.js, Redux, RxJs, React Router, Node.js, Express, Sequelize, Bootstrap, Naterial UI, Bulma, Storybook
           </p>
         </div>
       </div>
