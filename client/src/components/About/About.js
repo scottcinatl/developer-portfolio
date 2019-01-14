@@ -127,7 +127,7 @@ const About = ({ classes }) => (
         <div className={classes.aSkills}>
           <p>
             <span>Languages:</span> <br />
-            JavaScript + TypeScript, HTML5, CSS3, SQL
+            JavaScript, TypeScript, HTML5, CSS3, SQL
           </p>
           <p>
             <span>Frameworks & Libraries:</span> <br />
