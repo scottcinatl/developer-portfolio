@@ -131,7 +131,7 @@ const About = ({ classes }) => (
           </p>
           <p>
             <span>Frameworks & Libraries:</span> <br />
-            React.js, Redux, RxJs, React Router, Node.js, Express, Sequelize, Bootstrap, Naterial UI, Bulma, Storybook
+            React.js, Redux, RxJs, React Router, Node.js, Express, Sequelize, jQuery, Bootstrap, Material UI, Bulma, Storybook
           </p>
         </div>
       </div>
