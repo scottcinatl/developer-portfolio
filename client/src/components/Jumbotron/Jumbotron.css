@@ -9,7 +9,7 @@
 .figure {
   position: relative;
   display: inline-block;
-  max-width: 100%;
+  width: 100%;
 }
 
 .figcaption {
@@ -30,7 +30,7 @@
 
 .figure img {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 /*---------------------
