@@ -2,14 +2,13 @@
   "name": "studio5sixsix",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
     "test": "jest --watch",
     "start": "node server/index.js",
     "heroku-postbuild": "cd server && sequelize db:migrate && cd .. && cd client && yarn install && yarn build"
   },
   "author": "",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
@@ -17,7 +16,7 @@
     "express-validator": "^4.3.0",
     "nodemon": "^1.14.10",
     "pg": "6.1.5",
-    "sequelize": "3.30.4",
+    "sequelize": "^5.3.0",
     "sequelize-cli": "^3.2.0"
   },
   "devDependencies": {
